@@ -1,0 +1,90 @@
+html{
+	background-image:linear-gradient(#000022,#000000,#000022);
+	height:100%;
+}
+
+@keyframes fadein_title{
+	from {color:#00000000;}
+	to {color:white;}
+}
+
+hr{
+	width:20vw;
+}
+b{
+	color:white;
+}
+
+/* 
+GENERAL RULES
+--------------------------------------------------------------------------------
+DEDICATED RULES
+*/
+p.titleline{
+	padding:20vh 0px;
+	text-align:center;
+	font-family:黑体;
+	font-size:3em;
+	color:white;
+	text-shadow:5px 5px 5px #555555;
+	width:100vw;
+	height:70vh;
+	animation-name:fadein_title;
+	animation-duration:1s;
+}
+.intro{
+	padding:5vh 10vw;
+	margin:5vh 10vw;
+	text-align:center;
+	font-family:黑体;
+	font-size:1em;
+	color:#aaaaaa;
+	width:60vw;
+	
+}
+span.caption{
+	font-size:0.7em;
+	color:#555555;
+	font-style:italic;
+}
+span.inintro{
+	font-size:1em;
+	color:#aaaaaa;
+	text-align:center;
+	padding:5vh 10vw;
+	margin:5vh 10vw;
+	width:60vw;
+}
+
+div.visualcontainer{
+	position:static;
+	padding:5vh 5vw;
+	margin:5vh 25vw;
+	width:40vw;
+	height:50vh;
+}
+div.visualcontainerintro{
+	/* adapted to be used in p.intro */
+	position:static;
+	padding:0 30vw;
+	margin:0;
+	width:40vw;
+	height:40vh;
+}
+
+object.svg{
+	position:relative;
+	width:10vw;
+	height:10vw;
+}
+object.svgmid{
+	padding:0;
+	margin:0;
+	height:10vh;
+	width:10vw;
+}
+
+b.headline{
+	font-size:1.5em;
+	color:white;
+}
