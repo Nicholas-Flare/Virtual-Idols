@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>虚拟偶像-隐蔽生长，瞬时爆发</title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script src="wordcloud2.js"></script>
+	</head>
+	
+	<body>
+	
+		<canvas id="canvas" style="position:absolute;height:100vh;width:100vw;z-index:-1;"></canvas>
+		<script>
+			var freqData = [['捕捉',3],['IP',3],['IP',5],['元宇宙',3],['可塑性',3],['可塑性',5],['形象',3],['亲和度',3],['亲和度',5],['上升趋势',3],['上升趋势',5],['二创',3],['社群',3],['直播',3],['直播',5]];
+			
+			var opt = eval({'list':freqData,'color':'#111111','maxFontSize':10,'minFontSize':1,'backgroundColor':'#FFFFFF00','weightFactor':7,'classes':'.words','minRotation':0,'maxRotation':0});
+			WordCloud(document.getElementById('canvas'),opt);
+			document.getElementById('canvas').addEventListener('worldcloudstop',function (){
+				let e = this.querySelectorAll(".words");
+			})
+		</script>
+		
+		<div>
+			
+			<p class="titleline">
+				
+				<br/>
+				<b>虚拟偶像</b>
+				<br/>
+				<span style="font-size:0.5em">隐蔽生长，瞬时爆发</span>
+				<br/>
+				
+				<a class="button" href='part1.html',target='__parent'>开始</a>
+				
+			</p>
+			
+		</div>
+		
+	</body>
+
+</html>
