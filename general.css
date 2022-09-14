@@ -1,0 +1,90 @@
+/* new CSS file */
+html{
+	background-image:linear-gradient(#000022,#000000,#000022);
+	height:100%;
+}
+
+/*------------ANIMATION---------*/
+@keyframes fadein{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+/*------------GENERAL RULE------*/
+p.title{
+    margin:30vh 25vw;
+    padding:0;
+    width:50vw;
+    height:40vh;
+    text-align:center;
+    font-family:黑体;
+    font-size:5em;
+    color:white;
+    animation-name:fadein;
+    animation-duration:1s;
+}
+
+div.rapper{
+    margin:0 0;
+    padding:0 0;
+    width:100vw;
+}
+div.visrap{
+    margin:0 20vw;
+    padding:5vh 5vw;
+    width:50vw;
+    height:20vh;
+}
+
+object.svgshow{
+    margin:0 20vw;
+    padding:5vh 15vw;
+    width:30vw;
+    height:20vh;
+}
+
+p.content{
+    margin:5vh 20vw;
+    padding:5vh 5vw;
+    width:50vw;
+    text-align:left;
+    font-family:黑体;
+    font-size:1.3em;
+    line-height:2em;
+    color:darkgrey;
+}
+p.conclu{
+    margin:10vh 20vw;
+    padding:5vh 5vw;
+    width:50vw;
+    text-align:center;
+    font-family:黑体;
+    font-size:1.3em;
+    line-height:2em;
+    color:white;
+    border: 3px dashed white;
+}
+
+span.itemnum{
+    font-family:consolas;
+    color:white;
+    font-size:2em;
+}
+
+b{
+    color:white;
+}
+hr{
+    margin:20vh 25vw;
+    width:50vw;
+    color:white;
+}
+a.button{
+    margin:15vh 30vw;
+    padding:1vh 5vw;
+    width:30vw;
+    background-color:#aaaaaa22;
+    font-family:黑体;
+    font-size:1em;
+    color:white;
+}
