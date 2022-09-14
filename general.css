@@ -42,6 +42,11 @@ object.svgshow{
     width:30vw;
     height:20vh;
 }
+img.imgshow{
+    margin:0vh 5vw;
+    width:40vw;
+    height:fit-content;
+}
 
 p.content{
     margin:5vh 20vw;
@@ -69,6 +74,19 @@ span.itemnum{
     font-family:consolas;
     color:white;
     font-size:2em;
+}
+span.minititle{
+    font-family:consolas;
+    color:white;
+    font-size:1.5em;
+    line-height:3em;
+}
+span.caption{
+    position:relative;
+    text-align:center;
+    font-size:0.7em;
+    left:5vw;
+    color:darkgrey;
 }
 
 b{
