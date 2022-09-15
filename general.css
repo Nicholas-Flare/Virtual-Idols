@@ -69,6 +69,17 @@ p.conclu{
     color:white;
     border: 3px dashed white;
 }
+p.inlinequote{
+    margin:0vh 20vw;
+    padding:0vh 5vw;
+    width:50vw;
+    text-align:left;
+    font-family:黑体;
+    font-size:1.3em;
+    line-height:2em;
+    color:darkgrey;
+    border-left:0.5vw solid white;
+}
 
 span.itemnum{
     font-family:consolas;
