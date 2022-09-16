@@ -23,6 +23,17 @@ p.title{
     animation-name:fadein;
     animation-duration:1s;
 }
+p.titleline{
+	margin:100px 40vw;
+	text-align:center;
+	font-family:黑体;
+	font-size:5em;
+	color:white;
+	text-shadow:5px 5px 5px #555555;
+	position:absolute;
+	z-index:1;
+	width:20vw;
+}
 
 div.rapper{
     margin:0 0;
@@ -79,6 +90,18 @@ p.inlinequote{
     line-height:2em;
     color:darkgrey;
     border-left:0.5vw solid white;
+}
+p.tail{
+    margin:5vh 20vw;
+    padding:5vh 5vw;
+    width:50vw;
+    text-align:center;
+    font-family:黑体;
+    font-size:1.3em;
+    line-height:2em;
+    color:white;
+    animation-name:fadein;
+    animation-duration:1s;
 }
 
 span.itemnum{
