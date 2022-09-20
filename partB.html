@@ -6,6 +6,7 @@
         <title>PART B</title>
         <link rel="stylesheet" type="text/css" href="general.css"/>
         <script src="echarts.js"></script>
+        <script src="theme_pp.js"></script>
     </head>
     <body>
 
@@ -31,7 +32,7 @@
             <div id="v01" class="visrap" style="height:40vh"></div>
             <script>
                 var option = {
-                title:{ text:'网民倾向于支持喜欢虚拟偶像周边形式',subtext:'点击以展示标签'},
+                title:{ text:'网民倾向于支持喜欢虚拟偶像周边形式',subtext:'点击以展示标签，来源见底部[1]'},
                 tooltip:{ },
                 legend:{ data:['Percent']},
                 yAxis:{data:['日常穿搭','日常饮食','装饰摆件','虚拟产品','办公文具','3C产品','家居产品']},
@@ -43,7 +44,7 @@
                     }]
                 };
         
-                var vis01 = echarts.init(document.getElementById('v01'),'light');
+                var vis01 = echarts.init(document.getElementById('v01'),'purple-passion');
                 vis01.setOption(option);
             </script>
 
@@ -56,7 +57,7 @@
             <div id="v03" class="visrap" style="height:30vh"></div>
             <script>
                 var option1 = {
-                title:{ text:'网民为虚拟偶像月平均消费金额（元）',subtext:'点击以展示标签'},
+                title:{ text:'网民为虚拟偶像月平均消费金额（元）',subtext:'点击以展示标签，来源见底部[2]'},
                 tooltip:{ },
                 legend:{ data:['Percent']},
                 xAxis:{data:['<200','200-500','500-1000','1000-2000','2000-3000','>3000']},
@@ -68,7 +69,7 @@
                     }]
                 };
                 var option2 = {
-                title:{ text:'网民为虚拟偶像消费金额对比现实偶像',subtext:'点击以展示标签'},
+                title:{ text:'网民为虚拟偶像消费金额对比现实偶像',subtext:'点击以展示标签，来源同上'},
                 tooltip:{ },
                 legend:{ data:['Percent']},
                 xAxis:{data:['更多','基本相同','更少']},
@@ -79,9 +80,9 @@
                     data:[38,49,13]
                     }]
                 };
-                var vis02 = echarts.init(document.getElementById('v02'),'light');
+                var vis02 = echarts.init(document.getElementById('v02'),'purple-passion');
                 vis02.setOption(option1);
-                var vis03 = echarts.init(document.getElementById('v03'),'light');
+                var vis03 = echarts.init(document.getElementById('v03'),'purple-passion');
                 vis03.setOption(option2);
             </script>
 
@@ -98,7 +99,7 @@
             <div id="v04" class="visrap" style="height:40vh"></div>
             <script>
 				var option = {
-					title:{ text:'虚拟偶像爱好者加入社团比例',subtext:'点击以展示标签'},
+					title:{ text:'虚拟偶像爱好者加入社团比例',subtext:'点击以展示标签，来源见底部[3]'},
 					tooltip:{ },
 					legend:{ data:['ANS']},
 					series:[{
@@ -109,7 +110,7 @@
 					}]
 				};
 			
-				var vis04 = echarts.init(document.getElementById('v04'),'light');
+				var vis04 = echarts.init(document.getElementById('v04'),'purple-passion');
 				vis04.setOption(option);
 			</script>
 
@@ -121,6 +122,15 @@
                 <span class="caption">在虚拟偶像视频下，粉丝们用“梗表情包”来表达支持。<br/></span><br/>
 
                 由数据可知，88.5％的虚拟偶像爱好者会加入社群，大部分加入社群的数量为2或3。由于在虚拟偶像爱好者中不存在“大粉丝”（即花钱多者为领导者）。每一个粉丝都只是为爱发电。这些为爱发电的人们为了追求认同感、相识更多的爱好者而相聚在一个基本无组织的集体中。比如微博超话每日签到、比如B站粉丝牌子，又比如这些大大小小的QQ群，都是他们热爱与一同走向未来的证明。<br/><br/>
+            </p>
+
+            <p class="quelle">
+
+                [1] 网民倾向于支持喜欢虚拟偶像周边形式： 整理自艾媒数据中心、观研报告网综合数据。<br/>
+                [2] 网民为虚拟偶像月平均消费金额（元）： 整理自艾媒数据中心公开报告。<br/>
+                [3] 虚拟偶像爱好者加入社团比例：整理自艾媒数据中心公开报告。<br/>
+                本页中互动图表生成采用了开源项目Echarts。
+
             </p>
 
         </div>

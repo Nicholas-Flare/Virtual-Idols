@@ -6,6 +6,7 @@
         <title>PART A</title>
         <link rel="stylesheet" type="text/css" href="general.css"/>
         <script src="echarts.js"></script>
+        <script src="theme_pp.js"></script>
     </head>
 
     <body>
@@ -32,7 +33,7 @@
             <div id='v01' class='visrap' style="height:40vh;"></div>
             <script>
 				var option = {
-					title:{ text:'您了解虚拟偶像这个概念吗?',subtext:'点击以展示标签'},
+					title:{ text:'您了解虚拟偶像这个概念吗?',subtext:'数据来源：自开展调查'},
 					tooltip:{ },
 					legend:{ data:['ANS']},
 					series:[{
@@ -43,7 +44,7 @@
 					}]
 				};
 			
-				var vis01 = echarts.init(document.getElementById('v01'),'light');
+				var vis01 = echarts.init(document.getElementById('v01'),'purple-passion');
 				vis01.setOption(option);
 			</script>
             
@@ -60,7 +61,7 @@
             <div id='v02' class='visrap' style="height:40vh;"></div>
             <script>
                 var option = {
-                title:{ text:'虚拟偶像最重要的性质是什么？',subtext:'点击以展示标签'},
+                title:{ text:'虚拟偶像最重要的性质是什么？',subtext:'数据来源：自开展调查'},
                 tooltip:{ },
                 legend:{ data:['ANS']},
                 xAxis:{data:['艺术形式','交互特性','虚拟属性','人格人设','运作模式','技术融合']},
@@ -72,7 +73,7 @@
                     }]
                 };
         
-                var vis02 = echarts.init(document.getElementById('v02'),'light');
+                var vis02 = echarts.init(document.getElementById('v02'),'purple-passion');
                 vis02.setOption(option);
             </script>
 
@@ -100,7 +101,7 @@
             <div id='v03' class='visrap' style="height:40vh"></div>
             <script>
                 var option = {
-                    title:{ text:'部分英伟达RTX系列显卡价格季度变化',subtext:'点击以切换线条显示'},
+                    title:{ text:'部分英伟达RTX系列显卡价格季度变化',subtext:'点击图例切换显示，来源见底部[1]'},
                     tooltip:{ },
                     legend:{ orient:'vertical',right:10,top:-5,data:['RTX 3080','RTX 3090','RTX 3080Ti']},
                     xAxis:{type:'category',data:['20-Q4','21-Q1','22-Q2','22-Q3','22-Q4']},
@@ -120,7 +121,7 @@
                     }]
                 };
             
-                var vis03 = echarts.init(document.getElementById('v03'),'light');
+                var vis03 = echarts.init(document.getElementById('v03'),'purple-passion');
                 vis03.setOption(option);
             </script>
 
@@ -131,7 +132,12 @@
                 部分调查报告中对于35-40岁的中年人有所提及，认为他们在粉丝人群中也占大多数。能出现该种现象或因属于该年龄段的人群恰好最早接触互联网，对新鲜事物一直保持着较高的接受度。<br/><br/>
             </p>
 
-            
+            <p class="quelle">
+
+                [1] 部分英伟达RTX系列显卡价格季度变化： 整理自https://www.zhihu.com/column/c_1435379298346168321。<br/>
+                本页中互动图表生成采用了开源项目Echarts。
+
+            </p>
 
         </div>
 

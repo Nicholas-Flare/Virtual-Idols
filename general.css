@@ -30,7 +30,6 @@ p.titleline{
 	font-size:5em;
 	color:white;
 	text-shadow:5px 5px 5px #555555;
-	position:absolute;
 	z-index:1;
 	width:20vw;
 }
@@ -68,6 +67,16 @@ p.content{
     font-size:1.3em;
     line-height:2em;
     color:darkgrey;
+}
+p.quelle{
+    margin:5vh 20vw;
+    padding:5vh 5vw;
+    width:50vw;
+    text-align:left;
+    font-family:黑体;
+    font-size:0.7em;
+    line-height:2em;
+    color:#666666;
 }
 p.conclu{
     margin:10vh 20vw;
